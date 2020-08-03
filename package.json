@@ -1,0 +1,19 @@
+{
+  "name": "nim-webpack-loader-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "author": "Tracy Medcalf",
+  "license": "MIT",
+  "dependencies": {
+    "nim-loader": "^0.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
